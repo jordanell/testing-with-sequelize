@@ -1,0 +1,62 @@
+{
+  "name": "jordanell/testing-with-sequelize",
+  "version": "0.0.1",
+  "description": "An example repository for ",
+  "author": {
+    "name": "Jordan Ell",
+    "email": "me@jordanell.com"
+  },
+  "engines": {
+    "node": ">=8.11.2"
+  },
+  "scripts": {
+    "db:clean": "npm run db:drop && npm run db:create && npm run db:migrate",
+    "db:create": "babel-node ./scripts/db/create",
+    "db:create-migration": "babel-node ./scripts/db/createMigration",
+    "db:drop": "babel-node ./scripts/db/drop",
+    "db:migrate": "babel-node ./scripts/db/migrate",
+    "db:rollback": "babel-node ./scripts/db/rollback",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "pretest": "NODE_ENV=test npm run db:migrate",
+    "test": "NODE_ENV=test mocha",
+    "test:coverage": "NODE_ENV=test nyc mocha",
+    "test:report": "nyc report --reporter=text-summary"
+  },
+  "dependencies": {
+    "auto-parse": "1.5.1",
+    "babel-core": "6.26.3",
+    "child-process-promise": "2.2.1",
+    "dotenv": "6.0.0",
+    "lodash": "4.17.10",
+    "pg": "7.4.3",
+    "pg-hstore": "2.3.2",
+    "query-string": "6.1.0",
+    "sequelize": "4.38.0",
+    "sequelize-cli": "4.0.0",
+    "whatwg-url": "6.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-eslint": "8.2.6",
+    "babel-plugin-istanbul": "4.1.6",
+    "babel-plugin-module-resolver": "3.1.1",
+    "babel-plugin-root-import": "6.1.0",
+    "babel-plugin-syntax-object-rest-spread": "6.13.0",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
+    "babel-register": "6.26.0",
+    "chai": "4.1.2",
+    "eslint": "5.2.0",
+    "eslint-config-riipen": "2.0.1",
+    "eslint-import-resolver-babel-module": "4.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-jsx-a11y": "6.1.1",
+    "eslint-plugin-react": "7.10.0",
+    "faker": "4.1.0",
+    "mocha": "5.2.0",
+    "nyc": "12.0.2",
+    "require-directory": "2.1.1",
+    "sinon": "6.1.4"
+  }
+}

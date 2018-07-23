@@ -1,0 +1,21 @@
+{
+  "check-coverage": true,
+  "per-file": true,
+  "lines": 0,
+  "statements": 0,
+  "functions": 0,
+  "branches": 0,
+  "include": [
+    "src/**/*.js"
+  ],
+  "require": [
+    "babel-register"
+  ],
+  "reporter": [
+    "lcov",
+    "text-summary"
+  ],
+  "cache": true,
+  "sourceMap": false,
+  "instrument": false
+}
