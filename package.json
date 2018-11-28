@@ -1,7 +1,9 @@
 {
   "name": "testing-with-sequelize",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "An example repository for ",
+  "repository": "https://github.com/jordanell/testing-with-sequelize",
+  "license": "MIT",
   "author": {
     "name": "Jordan Ell",
     "email": "me@jordanell.com"
@@ -27,36 +29,36 @@
     "auto-parse": "1.5.1",
     "babel-core": "6.26.3",
     "child-process-promise": "2.2.1",
-    "dotenv": "6.0.0",
-    "lodash": "4.17.10",
-    "pg": "7.4.3",
+    "dotenv": "6.1.0",
+    "lodash": "4.17.11",
+    "pg": "7.6.1",
     "pg-hstore": "2.3.2",
-    "query-string": "6.1.0",
-    "sequelize": "4.38.0",
-    "sequelize-cli": "4.0.0",
-    "whatwg-url": "6.5.0"
+    "query-string": "6.2.0",
+    "sequelize": "4.41.2",
+    "sequelize-cli": "5.3.0",
+    "whatwg-url": "7.0.0"
   },
   "devDependencies": {
     "babel-cli": "6.26.0",
-    "babel-eslint": "8.2.6",
-    "babel-plugin-istanbul": "4.1.6",
+    "babel-eslint": "10.0.1",
+    "babel-plugin-istanbul": "5.1.0",
     "babel-plugin-module-resolver": "3.1.1",
     "babel-plugin-root-import": "6.1.0",
     "babel-plugin-syntax-object-rest-spread": "6.13.0",
     "babel-plugin-transform-class-properties": "6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "6.26.2",
     "babel-register": "6.26.0",
-    "chai": "4.1.2",
-    "eslint": "5.2.0",
+    "chai": "4.2.0",
+    "eslint": "5.9.0",
     "eslint-config-riipen": "2.0.1",
     "eslint-import-resolver-babel-module": "4.0.0",
-    "eslint-plugin-import": "2.13.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.10.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-jsx-a11y": "6.1.2",
+    "eslint-plugin-react": "7.11.1",
     "faker": "4.1.0",
     "mocha": "5.2.0",
-    "nyc": "12.0.2",
+    "nyc": "13.1.0",
     "require-directory": "2.1.1",
-    "sinon": "6.1.4"
+    "sinon": "7.1.1"
   }
 }

@@ -41,6 +41,7 @@ options.pool = {
   idle: 10000,
 };
 options.dialectOptions = {};
+options.operatorsAliases = Sequelize.Op;
 const sequelize = new Sequelize(pathname, username, password, options);
 const db = {};
 
