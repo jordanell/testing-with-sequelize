@@ -56,7 +56,7 @@
     "eslint-plugin-jsx-a11y": "6.1.2",
     "eslint-plugin-react": "7.11.1",
     "faker": "4.1.0",
-    "mocha": "8.0.1",
+    "mocha": "8.2.1",
     "nyc": "15.1.0",
     "require-directory": "2.1.1",
     "sinon": "7.1.1"
