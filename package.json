@@ -30,7 +30,7 @@
     "babel-core": "6.26.3",
     "child-process-promise": "2.2.1",
     "dotenv": "6.1.0",
-    "lodash": "4.17.19",
+    "lodash": "4.17.21",
     "pg": "7.6.1",
     "pg-hstore": "2.3.2",
     "query-string": "6.2.0",
